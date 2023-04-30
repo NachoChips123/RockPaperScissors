@@ -30,7 +30,7 @@ function playRound(playerSelection, computerSelection) {
         computerCount++;
         computerScore.innerHTML = computerCount;
         computerImg.style.backgroundImage = `url('${computerSelection}.png')`;
-        return "Computer wins!";
+        return "Rami wins!";
     }
 }
 
