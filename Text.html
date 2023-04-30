@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="container">
+		<h1>Rock Paper Scissors</h1>
+		<div id="game">
+			<div class="player-choice">
+				<h2>Your Choice</h2>
+				<button class="btn" id="rock"><img src="rock.png"></button>
+				<button class="btn" id="paper"><img src="paper.png"></button>
+				<button class="btn" id="scissors"><img src="scissors.png"></button>
+			</div>
+			<div class="computer-choice">
+				<h2>Rami's Choice</h2>
+				<div id="computer-img"></div>
+			</div>
+			<div id="result">
+				<h2>Result</h2>
+				<p id="result-text"></p>
+				<button class="btn" id="play-again">Play Again</button>
+			</div>
+			<div class="score">
+				<span>Your Score: </span><span id="userScore">0</span>
+			  </div>
+			  <div class="score">
+				<span>Rami's Score: </span><span id="computerScore">0</span>
+			  </div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
+
+
