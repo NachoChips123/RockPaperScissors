@@ -84,7 +84,3 @@ document.getElementById("play-again").addEventListener("click", function () {
     computerImg.style.backgroundImage = "url('question-mark.png')";
     document.getElementById("result").style.display = "none";
 });
-
-
-
-
